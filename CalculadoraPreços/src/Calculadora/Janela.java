@@ -24,7 +24,7 @@ public class Janela {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setLocationRelativeTo(null);
 		frame.setResizable(false);
-		URL iconURL = getClass().getClassLoader().getResource("iconeJanela.png");
+		URL iconURL = getClass().getResource("/Calculadora/imagens/iconeJanela.png");
         if (iconURL != null) {
         	ImageIcon icon = new ImageIcon(iconURL);
             Image image = icon.getImage(); 
